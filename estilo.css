@@ -169,45 +169,37 @@ a{
     color: #FFFFFF;
 }
 .fechar{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.018em;
+    color: #FFFFFF; 
 text-align: center;
 width: 364px;
 height: 61px;
 background: #32B72F;
+color:#FFFFFF;
 border-radius: 50px;
 display: flex;
 align-items: center;
 text-align: center;
+justify-content: center;
 }
 .selecionado{
-    
-        border: 4px solid #32b72f;
-        border-radius: 9px;
-     
-}
-.dispAberto{
-    display: flex;
-    align-items: center;
-    text-align: center;
+border: 4px solid #32b72f;
+border-radius: 9px;  
 }
 .escondido{
 display: none;
-align-items: center;
-justify-content: center;
+}
 
-}
-ion-icon {
-    color: #32B72F;
-    position: absolute; 
-    right: 10px;
-    bottom: 15px;
-}
 .display{
     display:flex;
 }
-.check img{
-    height: 16px;
-    width: 16px;
-}
+
 /* mobile phone */
 @media all and (max-width: 768px) {
     .opcoes{
