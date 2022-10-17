@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="estilo.css">
+    <title>DrivenEats</title>
+</head>
+<body>
+ <div class="topo">
+    <h1>DrivenEats</h1>
+    <h2>Sua comida em 6 minutos</h2>
+  </div>
+    <div class="cardapio">
+        <div class="prato">
+            <h3>Primeiro, seu prato</h3>
+            <div class="opcoes">
+               <button onclick="selecionarPrato(this)">
+                <ion-icon name="checkmark-outline"></ion-icon>
+                <img src="imagens/frango.png"/>
+                <p class="titulo">Frango Yin Yang P</p>
+                <p class="descricao">Porção P: Um pouco de batata, um pouco de salada</p>
+                <p class="preco">R$ 14,90</p>
+               </button> 
+               <button onclick="selecionarPrato(this)">
+                <img src="imagens/frango.png"/>
+                <p class="titulo">Frango Yin Yang M</p>
+                <p class="descricao">Porção M: Um pouco de batata, um pouco de salada</p>
+                <p class="preco">R$ 24,90</p>
+               </button>
+               <button onclick="selecionarPrato(this)">
+                <img src="imagens/frango.png"/>
+                <p class="titulo">Frango Yin Yang G</p>
+                <p class="descricao">Porção G: Um pouco de batata, um pouco de salada</p>
+                <p class="preco">R$ 29,90</p>
+               </button>               
+            </div>     
+        </div>
+        <div class="bebida">
+            <h3>Agora, sua bebida</h3>
+            <div class="opcoes">
+                <button onclick="selecionarBebida(this)">
+                 <img src="imagens/coquinha.png"/>
+                 <p class="titulo">Coquinha gelada</p>
+                 <p class="descricao">Lata 350ml</p>
+                 <p class="preco">R$ 4,90</p>
+                </button>
+                <button onclick="selecionarBebida(this)">
+                    <img src="imagens/coquinha.png"/>
+                    <p class="titulo">Coquinha gelada</p>
+                    <p class="descricao">Garrafa de 500ml</p>
+                    <p class="preco">R$ 7,90</p>
+                </button> 
+                <button onclick="selecionarBebida(this)">
+                    <img src="imagens/coquinha.png"/>
+                    <p class="titulo">Coquinha gelada</p>
+                    <p class="descricao">Garrafa de 1L</p>
+                    <p class="preco">R$ 9,90</p>
+                </button>
+             </div> 
+        </div>
+        <div class="sobremesa">
+            <h3>Por fim, sua sobremesa</h3>
+            <div class="opcoes">
+                <button onclick="selecionarSobremesa(this)">
+                 <img src="imagens/pudim.png"/>
+                 <p class="titulo">Pudim P</p>
+                 <p class="descricao">Apenas pudim PEQ</p>
+                 <p class="preco">R$ 7,90</p>
+                </button>
+                <button onclick="selecionarSobremesa(this)">
+                    <img src="imagens/pudim.png"/>
+                    <p class="titulo">Pudim M</p>
+                    <p class="descricao">Pudim MÉDIO</p>
+                    <p class="preco">R$ 9,90</p>
+                </button>
+                <button onclick="selecionarSobremesa(this)">
+                    <img src="imagens/pudim.png"/>
+                    <p class="titulo">Pudim G</p>
+                    <p class="descricao">Pudim GRANDE</p>
+                    <p class="preco">R$ 14,90</p>
+                </button>
+             </div> 
+        </div>
+    </div>
+    <div class="confirmar">
+        <div class="selecionar">Selecione os 3 itens para fechar o pedido</div>
+        <!-- <button onclick="document.location='default.asp'">HTML Tutorial</button> -->
+        <div class="fechar escondido">
+            <a href="https://wa.me/5521970027981?text=Olá,%20gostaria%20de%20fazer%20o%20pedido:%20"target="_blank">Fechar pedido</a>
+        </div>
+    </div>    
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+</html>
+
+
